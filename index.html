@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tutuł strony -->
+    <title>Przewodnik po miastach Polski</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+    <!-- biblioteka font awesome -->
+    <script src="https://kit.fontawesome.com/1c69f082e2.js" crossorigin="anonymous"></script>
+    <!-- biblioteka fontów -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- własne style css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" media="screen and (min-width:768px)" href="./css/medium.css">
+    <link rel="stylesheet" media="screen and (min-width:992px)" href="./css/large.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Przewodnik po miastach Polski</h1>
+            <h2>Zobacz z nami najpiękniejsze miejsca</h2>
+        </div>
+        <a href="#main">czytaj więcej</a>
+    </header>
+    <main>
+        <!-- sekcja miejsc do odwiedzenia -->
+        <section id="main" class="places_to_see flex_column_container">
+            <h2 class="h2">Miejsca warte odwiedzenia</h2>
+            <div class="all_places_to_see">
+                <!-- pierwsze miasto -->
+                <div class="single_place flex_column_container">
+                    <h3>Gdańsk</h3>
+                    <img src="./img/gdansk.jpg" alt="Gdańsk - widokna Motławę">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero inventore ducimus error nisi ullam.
+                        Numquam eum, suscipit doloribus est totam odio ex ullam dolor sunt asperiores velit eaque
+                        aspernatur! Omnis.</p>
+                    <a href="https://www.gdansk.pl/">Poznaj Gdańsk</a>
+                </div>
+                <!-- drugie miasto -->
+                <div class="single_place flex_column_container">
+                    <h3>Poznań</h3>
+                    <img src="./img/poznan.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A qui reprehenderit deserunt tempora
+                        pariatur, ipsam, optio vero iste in similique tempore laborum adipisci. Nesciunt doloribus omnis
+                        facilis? Explicabo, fugiat ut.</p>
+                    <a href="https://www.poznan.pl/">Poznaj Poznań</a>
+                </div>
+                <!-- trzecie miasto -->
+                <div class="single_place flex_column_container">
+                    <h3>Wrocław</h3>
+                    <img src="./img/wroclaw.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet numquam hic eos fugit, sed
+                        fugiat, minima consectetur maiores, tempore officiis atque quae. Rerum nam officiis molestiae
+                        cumque similique delectus obcaecati.</p>
+                    <a href="https://www.wroclaw.pl/">Poznaj Wrocław</a>
+                </div>
+                <!-- czwarte miasto -->
+                <div class="single_place flex_column_container">
+                    <h3>Warszawa</h3>
+                    <img src="./img/wwa.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, amet explicabo quidem, maxime
+                        temporibus praesentium repellendus quibusdam inventore rerum odit molestias exercitationem minus
+                        adipisci nostrum saepe dolorum aut ratione sit!</p>
+                    <a href="https://um.warszawa.pl/">Poznaj Warszawę</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- sekcja newsletter -->
+        <section class="newsetter">
+            <div class="newsetter_box">
+                <h2>newsletter</h2>
+                <p>Zapisz się na nasz newsletter i bądź na bieżąco z naszymi ofertami i promocjami.</p>
+                <form action="">
+                    <div class="form_input_box">
+                        <input type="text" placeholder="imię">
+                        <input type="email" placeholder="email">
+                    </div>
+                    <div>
+                        <label for=""><input type="checkbox">Zapoznałem/am się z regulaminem i akceptuję go.</label>
+                    </div>
+                    <button>Zapisz się!</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- sekcja kontaktu -->
+        <section class="contact flex_column_container">
+            <h2 class="h2">Skontaktuj się z nami</h2>
+            <div class="all_contacts">
+                <div class="flex_column_container single_contact">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>ul. Polna 5, 12-345 Gdańsk</p>
+                </div>
+                <div class="flex_column_container single_contact">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>przewodnik@mail.com</p>
+                </div>
+                <div class="flex_column_container single_contact">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+48 123-456-789</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- sekcja komentarzy -->
+        <section class="flex_column_container comments">
+            <h2 class="h2">Zobacz co o nas piszą</h2>
+            <div class="all_comments">
+                <div class="flex_column_container single_comment">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quod vel, doloribus alias
+                        laudantium deserunt error incidunt labore tempore ipsa ullam amet quam architecto itaque iure
+                        praesentium qui velit quasi.</p>
+                    <p>Tomasz, Gazeta Wyborcza</p>
+                </div>
+                <div class="flex_column_container single_comment">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quod vel, doloribus alias
+                        laudantium deserunt error incidunt labore tempore ipsa ullam amet quam architecto itaque iure
+                        praesentium qui velit quasi.</p>
+                    <p>Paulina, Tui</p>
+                </div>
+                <div class="flex_column_container single_comment">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quod vel, doloribus alias
+                        laudantium deserunt error incidunt labore tempore ipsa ullam amet quam architecto itaque iure
+                        praesentium qui velit quasi.</p>
+                    <p>Mateusz, To Jest Polska</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- sekcja mapy -->
+        <section class="map flex_column_container">
+            <h2 class="h2">Zobacz miasta Polski</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5048367.737834234!2d13.854569012900004!3d51.842270031030864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47009964a4640bbb%3A0x97573ca49cc55ea!2sPolska!5e0!3m2!1spl!2spl!4v1761734906953!5m2!1spl!2spl"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="flex_column_container">
+        <div class="social_media">
+            <a href="https://facebook.com" target="_blank"><img src="./img/fb.png" alt=""></a>
+            <a href="https://youtube.com" target="_blank"><img src="./img/yt.png" alt=""></a>
+            <a href="https://instagram.com" target="_blank"><img src="./img/ig.png" alt=""></a>
+            <a href="https://pinterest.com" target="_blank"><img src="./img/pin.png" alt=""></a>
+            <a href="https://tiktok.com" target="_blank"><img src="./img/tt.png" alt=""></a>
+        </div>
+        <div class="author">
+            <p>Projekt WSB Merito Gdańsk 2025-2026</p>
+            <p>Autor: Magda M.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
