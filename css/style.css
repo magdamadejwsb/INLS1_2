@@ -35,7 +35,7 @@ header {
     align-items: center;
 }
 
-header a {
+header a, section.faq a {
     background-color: #9C0E37;
     border: 1px solid #9C0E37;
     color: white;
@@ -45,7 +45,7 @@ header a {
     margin-bottom: 20px;
 }
 
-header a:hover {
+header a:hover, section.faq a:hover {
     background-color: #fff;
     border: 1px solid #9C0E37;
     color: #9C0E37;
